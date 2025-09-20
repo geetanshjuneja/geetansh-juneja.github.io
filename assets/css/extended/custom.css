@@ -1,0 +1,22 @@
+/* Place the TOC in the left gutter */
+.toc {
+  position: fixed;         /* keep it visible while scrolling */
+  top: 120px;              /* adjust based on header height */
+  left: 40px;              /* distance from the window's left edge */
+  width: 220px;            /* fixed width */
+  z-index: 10;
+  background: transparent; /* keep theme background */
+  box-shadow: none;        /* remove card effect if you prefer */
+}
+
+/* Hide inline TOC spacing inside the post */
+.post-content .toc {
+  float: none;
+  margin: 0;
+}
+
+/* Ensure post text doesn’t shrink to make space for TOC */
+.post-content {
+  max-width: 700px;       /* your preferred content width */
+  margin: 0 auto;         /* keep centered */
+}
