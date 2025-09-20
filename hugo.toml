@@ -1,4 +1,4 @@
-baseURL = 'https://geetanshjuneja.github.io/geetansh-juneja.github.io/'
+baseURL = 'https://geetanshjuneja.github.io/'
 languageCode = 'en-us'
 title = 'Personal Website'
 theme = 'PaperMod'
