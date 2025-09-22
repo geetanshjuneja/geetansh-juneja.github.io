@@ -56,15 +56,15 @@ tocopen = true
   [params.profileMode]
   enabled = true
   title = "Geetansh Juneja"
-  subtitle = "SDE1 at Sprinklr | CSE'25 @ IITD | Open Source Contributor"
-  imageUrl = "<img location>"
-  imageWidth = 120
-  imageHeight = 120
+  subtitle = "SDE1 @ [Sprinklr](https://www.sprinklr.com/) | CSE'25 @ [IITD](https://home.iitd.ac.in/) | Open Source Contributor"
+  imageUrl = "/images/profile.png"
+  imageWidth = 190
+  imageHeight = 220
   imageTitle = "my image"
 
     [[params.profileMode.buttons]]
-    name = "Posts"
-    url = "posts"
+    name = "Blogs"
+    url = "blogs"
 
     [[params.profileMode.buttons]]
     name = "Tags"
@@ -123,13 +123,13 @@ tocopen = true
 identifier = "home"
 name = "Home"
 url = "/"
-weight = 1
+weight = 10
 
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
-weight = 10
+identifier = "blogs"
+name = "Blogs"
+url = "/blogs/"
+weight = 20
 
 # [[menu.main]]
 # identifier = "categories"
@@ -138,8 +138,8 @@ weight = 10
 # weight = 20
 
 [[menu.main]]
-identifier = "Tags"
-name = "tags"
+identifier = "tags"
+name = "Tags"
 url = "/tags/"
 weight = 30
 
